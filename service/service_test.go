@@ -50,7 +50,7 @@ func Test_GetContactByEmail(t *testing.T) {
 	{
 		// Using braces like this can help isolate different test cases.
 
-		contact, err := env.Client.GetContactByEmail("alice@example.xyz")
+		contact, err := env.Client.GetContactByEmail("alicexyz@example.xyz")
 
 		// VERIFY: Response contains the contact
 		require.NoError(t, err, "Unable to get contact via API")
